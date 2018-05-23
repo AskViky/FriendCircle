@@ -33,7 +33,6 @@ public enum ImageLoadMnanger {
     public static RequestOptions OPTION_DEFAULT = new RequestOptions().placeholder(R.drawable.image_nophoto).error(R.drawable.image_nophoto);
     public static RequestOptions OPTION_TRANSLATE_PLACEHOLDER = new RequestOptions().placeholder(new ColorDrawable()).error(new ColorDrawable());
 
-
     public void clearMemory(Context context) {
         Glide.get(context).clearMemory();
     }
@@ -73,9 +72,7 @@ public enum ImageLoadMnanger {
         return context;
     }
 
-
     private class GlideDispatcher {
-
         RequestBuilder getGlide(Object o, ImageView iv) {
             RequestManager manager = Glide.with(getImageContext(iv));
             if (o instanceof String) {

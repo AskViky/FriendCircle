@@ -51,7 +51,6 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 public class PhotoMultiBrowserActivity extends BaseActivity implements View.OnClickListener {
     private static final String TAG = "PhotoMultiBrowserActivi";
 
-
     @Autowired(name = "maxSelectCount")
     public int maxSelectCount;
 

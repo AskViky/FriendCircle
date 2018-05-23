@@ -74,7 +74,6 @@ public class PhotoBrowserAdapter extends PagerAdapter implements ClearMemoryObje
         }
     }
 
-
     @Override
     public boolean isViewFromObject(View view, Object object) {
         return view == object;

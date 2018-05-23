@@ -15,7 +15,6 @@ public @interface Define {
 
     String BMOB_APPID = "7fc6618e5572b09c6055ef4d53d0017a";
 
-
     @Retention(RetentionPolicy.SOURCE)
     @IntDef({LikeState.LIKE, LikeState.UNLIKE})
     @interface LikeState {

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    compileSdkVersion 26
 
     defaultConfig {
         applicationId "razerdp.friendcircle"
@@ -62,5 +62,4 @@ dependencies {
         implementation project(':circle_base_ui')
         implementation project(':circle_common')
     }
-
 }

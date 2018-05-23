@@ -30,7 +30,6 @@ public class ThreadPoolManager {
          threadFactory  为线程池提供创建新线程的功能，这个我们一般使用默认即可
          handler 拒绝策略，当线程无法执行新任务时（一般是由于线程池中的线程数量已经达到最大数或者线程池关闭导致的），默认情况下，当线程池无法处理新线程时，会抛出一个RejectedExecutionException。
          */
-
         int processorNum = Runtime.getRuntime().availableProcessors(); //CPU数量
         threadPool = new ThreadPoolExecutor(processorNum, processorNum * 2 + 1, 20, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
         uploadThreadPool = new ThreadPoolExecutor(processorNum, 9, 20, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());

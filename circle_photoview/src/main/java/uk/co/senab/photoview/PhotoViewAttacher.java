@@ -66,7 +66,6 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener,
     static final int EDGE_LEFT = 0;
     static final int EDGE_RIGHT = 1;
     static final int EDGE_BOTH = 2;
-
     static int SINGLE_TOUCH = 1;
 
     private float mMinScale = DEFAULT_MIN_SCALE;

@@ -45,7 +45,6 @@ public class BaseMultiRecyclerViewAdapter<A extends BaseMultiRecyclerViewAdapter
         return viewHolderInfo == null ? 0 : viewHolderInfo.getLayoutResid();
     }
 
-
     @Override
     protected <V extends BaseRecyclerViewHolder> V getViewHolder(ViewGroup parent, View rootView, int viewType) {
         ViewHolderInfo viewHolderInfo = mViewHolderInfos.get(viewType);

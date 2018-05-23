@@ -7,6 +7,7 @@ import cn.bmob.v3.BmobObject;
  */
 
 public class LikesInfo extends BmobObject {
+
     private UserInfo userid;
     private MomentsInfo momentsid;
 

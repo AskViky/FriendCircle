@@ -41,8 +41,8 @@ import razerdp.github.com.photoselect.R;
  */
 
 public class PhotoGridFragement extends BaseFragment {
-    private static final String TAG = "PhotoGridFragement";
 
+    private static final String TAG = "PhotoGridFragement";
     private ViewHolder vh;
     private PhotoSelectAdapter adapter;
     private String currentAlbumName;

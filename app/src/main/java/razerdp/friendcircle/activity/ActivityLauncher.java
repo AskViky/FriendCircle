@@ -45,7 +45,6 @@ public class ActivityLauncher {
         SwitchActivityTransitionUtil.transitionVerticalIn(act);
     }
 
-
     public static void startToPhotoBrosweActivity(Activity act, @NonNull PhotoBrowseInfo info) {
         if (info == null) return;
         PhotoBrowseActivity.startToPhotoBrowseActivity(act, info);

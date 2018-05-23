@@ -22,7 +22,6 @@ public class CommentInfo extends BmobObject implements IComment<CommentInfo> {
         String AUTHOR_USER = "author";
     }
 
-
     private MomentsInfo moment;
     private String content;
     private UserInfo author;

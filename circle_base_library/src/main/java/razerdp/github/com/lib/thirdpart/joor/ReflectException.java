@@ -33,7 +33,6 @@ import java.lang.reflect.InvocationTargetException;
  * @author Lukas Eder
  */
 public class ReflectException extends RuntimeException {
-
     /**
      * Generated UID
      */

@@ -15,7 +15,6 @@ import java.lang.ref.WeakReference;
 
 public class KeyboardControlMnanager {
 
-
     private OnKeyboardStateChangeListener onKeyboardStateChangeListener;
     private WeakReference<Activity> act;
 
@@ -23,7 +22,6 @@ public class KeyboardControlMnanager {
         this.act = new WeakReference<Activity>(act);
         this.onKeyboardStateChangeListener = onKeyboardStateChangeListener;
     }
-
 
     public void observerKeyboardVisibleChangeInternal() {
         if (onKeyboardStateChangeListener == null) return;
@@ -55,13 +53,10 @@ public class KeyboardControlMnanager {
                 preKeyboardHeight = keyboardHeight;
             }
         });
-
-
     }
 
     public static void observerKeyboardVisibleChange(Activity act, OnKeyboardStateChangeListener onKeyboardStateChangeListener) {
         new KeyboardControlMnanager(act, onKeyboardStateChangeListener).observerKeyboardVisibleChangeInternal();
-
     }
 
     public OnKeyboardStateChangeListener getOnKeyboardStateChangeListener() {

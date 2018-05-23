@@ -27,7 +27,6 @@ abstract class BaseCompressTaskHelper<T> {
 
     public abstract void start();
 
-
     void callSuccess(final List<String> imagePath) {
 
         if (mOnCompressListener == null) return;

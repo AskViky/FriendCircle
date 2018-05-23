@@ -29,7 +29,6 @@ import razerdp.github.com.lib.utils.ImageSelectUtil;
 public class PhotoHelper {
     private static String curTempPhotoPath;
 
-
     @Retention(RetentionPolicy.SOURCE)
     @IntDef({REQUEST_FROM_CAMERA, REQUEST_FROM_ALBUM, REQUEST_FROM_CROP})
     public @interface PhotoType {
@@ -41,9 +40,7 @@ public class PhotoHelper {
     private static final int REQUEST_FROM_CAMERA_WITHO_OUT_CROP = 0x13;//不截图的request code
     private static final int REQUEST_FROM_ALBUM_WITHO_OUT_CROP = 0x14;//不截图的request code
 
-
     private static String cropPath;
-
 
     public static void fromCamera(Activity activity) {
         fromCamera(activity, true);

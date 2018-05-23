@@ -29,7 +29,6 @@ public class PhotoAlbumAdapter extends BaseRecyclerViewAdapter<AlbumInfo> {
         super(context, datas);
     }
 
-
     @Override
     protected int getViewType(int position, @NonNull AlbumInfo data) {
         return 0;
@@ -50,8 +49,6 @@ public class PhotoAlbumAdapter extends BaseRecyclerViewAdapter<AlbumInfo> {
         private ImageView albumThumb;
         private TextView albumName;
         private TextView photoCounts;
-
-
 
         public InnerViewHolder(View itemView, int viewType) {
             super(itemView, viewType);

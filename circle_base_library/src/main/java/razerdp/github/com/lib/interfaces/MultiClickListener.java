@@ -15,7 +15,6 @@ public abstract class MultiClickListener implements View.OnClickListener {
     private boolean isDouble = false;
     private WeakHandler handler = new WeakHandler();
 
-
     private final Runnable runnable = new Runnable() {
         @Override
         public void run() {

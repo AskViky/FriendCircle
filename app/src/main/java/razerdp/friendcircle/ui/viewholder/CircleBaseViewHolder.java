@@ -41,7 +41,6 @@ import razerdp.github.com.ui.widget.common.ClickShowMoreLayout;
  */
 public abstract class CircleBaseViewHolder extends BaseMultiRecyclerViewHolder<MomentsInfo> implements BaseMomentVH<MomentsInfo> {
 
-
     //头部
     protected ImageView avatar;
     protected TextView nick;
@@ -66,7 +65,6 @@ public abstract class CircleBaseViewHolder extends BaseMultiRecyclerViewHolder<M
     private MomentPresenter momentPresenter;
     private int itemPosition;
     private MomentsInfo momentsInfo;
-
 
     public CircleBaseViewHolder(View itemView, int viewType) {
         super(itemView, viewType);

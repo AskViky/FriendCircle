@@ -79,7 +79,6 @@ public class AppFileHelper {
         }
     }
 
-
     private static void initStroagePathInternal() {
         if (TextUtils.isEmpty(storagePath)) {
             //M开始用的filePorider
@@ -138,7 +137,6 @@ public class AppFileHelper {
     public static String getAppDataPath() {
         return storagePath.concat(DATA_PATH);
     }
-
 
     public static String getAppCachePath() {
         return storagePath.concat(CACHE_PATH);

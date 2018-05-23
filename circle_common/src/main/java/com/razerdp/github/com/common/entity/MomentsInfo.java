@@ -22,7 +22,6 @@ import razerdp.github.com.ui.base.adapter.MultiType;
 
 public class MomentsInfo extends BmobObject implements MultiType {
 
-
     @Override
     public int getItemType() {
         return getMomentType();

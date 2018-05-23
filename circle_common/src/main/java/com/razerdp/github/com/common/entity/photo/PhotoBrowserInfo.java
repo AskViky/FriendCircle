@@ -14,10 +14,10 @@ import razerdp.github.com.lib.common.entity.ImageInfo;
  */
 
 public class PhotoBrowserInfo implements Parcelable {
+
     private int curPos;
     private String currentAlbumName;
     private List<ImageInfo> selectedDatas;
-
 
     protected PhotoBrowserInfo(Parcel in) {
         curPos = in.readInt();

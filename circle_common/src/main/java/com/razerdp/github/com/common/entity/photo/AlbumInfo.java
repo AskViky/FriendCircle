@@ -9,6 +9,7 @@ import java.io.Serializable;
  */
 
 public class AlbumInfo implements Serializable {
+
     private String albumName;
     private int photoCounts;
     private String firstPhoto;

@@ -24,7 +24,6 @@ public abstract class BaseFragment extends Fragment {
     protected Activity mActivity;
     private PermissionHelper mPermissionHelper;
 
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

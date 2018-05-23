@@ -34,7 +34,6 @@ public class PhotoAlbumFragement extends BaseFragment {
 
     private RecyclerView mPhotoContent;
     private PhotoAlbumAdapter adapter;
-
     private List<AlbumInfo> datas;
 
     @Override
@@ -47,7 +46,6 @@ public class PhotoAlbumFragement extends BaseFragment {
         if (!LocalPhotoManager.INSTANCE.hasData()) return;
         findAndSetDatas();
     }
-
 
     @Override
     protected void onInitView(View rootView) {
@@ -85,6 +83,5 @@ public class PhotoAlbumFragement extends BaseFragment {
             datas.add(info);
         }
     }
-
 
 }

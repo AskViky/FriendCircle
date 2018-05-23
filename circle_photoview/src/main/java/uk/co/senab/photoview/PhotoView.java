@@ -35,7 +35,6 @@ import static android.R.attr.centerY;
 
 public class PhotoView extends ImageView implements IPhotoView {
 
-
     /**
      * 此项为另外添加，为了让viewpager的destroyItem方法不会让photoview的缩放功能失效(
      * 默认是cleanup在DetachedFromWindow的时候

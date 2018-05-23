@@ -39,15 +39,12 @@ import razerdp.github.com.photoselect.fragment.PhotoGridFragement;
 public class PhotoSelectActivity extends BaseTitleBarActivity {
     private static final String TAG = "PhotoSelectActivity";
 
-
     @Autowired(name = RouterList.PhotoSelectActivity.key_maxSelectCount)
     int maxCount;
 
     private PhotoGridFragement gridFragement;
     private PhotoAlbumFragement albumFragement;
-
     private BaseFragment currentFragment;
-
 
     @Subscribe
     public void onEventMainThread(EventSelectAlbum event) {

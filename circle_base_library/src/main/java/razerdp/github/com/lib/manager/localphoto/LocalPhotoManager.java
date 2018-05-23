@@ -46,7 +46,6 @@ public enum LocalPhotoManager {
     boolean isScaning;
     long lastScanTime;
 
-
     //访问系统数据库的大图查询数据
     public static final String[] STORE_IMGS = {MediaStore.Images.ImageColumns._ID,
             MediaStore.Images.ImageColumns.DATA,
@@ -355,7 +354,6 @@ public enum LocalPhotoManager {
             this.progress = 0;
             this.listener = null;
         }
-
 
         @Override
         public void run() {

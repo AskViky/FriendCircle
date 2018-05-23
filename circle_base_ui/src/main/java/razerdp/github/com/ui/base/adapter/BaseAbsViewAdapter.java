@@ -27,7 +27,6 @@ public abstract class BaseAbsViewAdapter<T, V extends BaseAbsViewHolder> extends
         mInflater=LayoutInflater.from(context);
     }
 
-
     @Override
     public int getCount() {
         return datas == null ? 0 : datas.size();

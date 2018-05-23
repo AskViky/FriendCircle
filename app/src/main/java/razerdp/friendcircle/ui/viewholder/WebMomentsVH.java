@@ -20,14 +20,12 @@ import razerdp.github.com.ui.base.adapter.LayoutId;
 @LayoutId(id = R.layout.moments_web)
 public class WebMomentsVH extends CircleBaseViewHolder {
 
-
     public WebMomentsVH(View itemView, int viewType) {
         super(itemView, viewType);
     }
 
     @Override
     public void onFindView(@NonNull View rootView) {
-
 
     }
 

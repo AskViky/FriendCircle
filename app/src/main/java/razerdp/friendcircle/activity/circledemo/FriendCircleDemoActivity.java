@@ -79,7 +79,6 @@ public class FriendCircleDemoActivity extends BaseTitleBarActivity implements On
     private static final int REQUEST_REFRESH = 0x10;
     private static final int REQUEST_LOADMORE = 0x11;
 
-
     private int clickServiceCount = 0;
     private RelativeLayout mTipsLayout;
     private TextView mServiceTipsView;
@@ -96,7 +95,6 @@ public class FriendCircleDemoActivity extends BaseTitleBarActivity implements On
     private MomentPresenter presenter;
 
     private CircleViewHelper mViewHelper;
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -35,7 +35,6 @@ import razerdp.github.com.widget.adapter.PhotoContentsBaseAdapter;
 @LayoutId(id = R.layout.moments_multi_image)
 public class MultiImageMomentsVH extends CircleBaseViewHolder implements PhotoContents.OnItemClickListener {
 
-
     private PhotoContents imageContainer;
     private InnerContainerAdapter adapter;
 

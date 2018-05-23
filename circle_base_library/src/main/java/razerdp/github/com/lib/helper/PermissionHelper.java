@@ -33,7 +33,6 @@ import razerdp.github.com.lib.R;
 /**
  * 权限帮助类
  */
-
 public class PermissionHelper {
     private static final String TAG = "PermissionHelper";
     private WeakReference<Object> mWeakReference;
@@ -58,7 +57,6 @@ public class PermissionHelper {
     public static final int CODE_READ_EXTERNAL_STORAGE = 7;
     public static final int CODE_WRITE_EXTERNAL_STORAGE = 8;
     public static final int CODE_MULTI_PERMISSION = 100;
-
 
     static {
         PERMISSION_MAP.put(CODE_RECORD_AUDIO, Manifest.permission.RECORD_AUDIO);
@@ -196,9 +194,7 @@ public class PermissionHelper {
         } else if (object instanceof Fragment) {
             ((Fragment) object).requestPermissions(permissions, requestCode);
         }
-
     }
-
 
     private void shouldShowRationale(final Context activity, final int requestCode, final String requestPermission) {
         String[] permissionsHint = activity.getResources().getStringArray(R.array.permissions);

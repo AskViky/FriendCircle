@@ -40,12 +40,10 @@ public class CompressOption implements Serializable {
         return mManagerWeakReference == null ? null : mManagerWeakReference.get();
     }
 
-
     public CompressOption setCompressType(@CompressManager.CompressType int compressType) {
         this.compressType = compressType;
         return this;
     }
-
 
     public CompressOption setSizeTarget(int sizeTarget) {
         this.sizeTarget = sizeTarget;
@@ -66,7 +64,6 @@ public class CompressOption implements Serializable {
         this.autoRotate = autoRotate;
         return this;
     }
-
 
     public CompressOption setOriginalImagePath(String originalImagePath) {
         this.originalImagePath = originalImagePath;

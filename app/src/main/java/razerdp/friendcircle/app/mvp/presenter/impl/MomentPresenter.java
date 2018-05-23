@@ -37,6 +37,7 @@ import razerdp.github.com.ui.widget.commentwidget.CommentWidget;
  */
 
 public class MomentPresenter implements IMomentPresenter {
+
     private IMomentView momentView;
     private CommentImpl commentModel;
     private LikeImpl likeModel;

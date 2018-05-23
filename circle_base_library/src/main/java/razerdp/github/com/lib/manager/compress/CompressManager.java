@@ -29,7 +29,6 @@ public class CompressManager {
     public static final int SCALE = 0x11;//分辨率压缩
     public static final int BOTH = 0x12;//上面两个。。。
 
-
     @Retention(RetentionPolicy.SOURCE)
     @StringDef({JPG, PNG})
     public @interface ImageType {
@@ -37,7 +36,6 @@ public class CompressManager {
 
     public static final String JPG = ".jpg";
     public static final String PNG = ".png";
-
 
     WeakReference<Context> mWeakReference;
 
@@ -52,7 +50,6 @@ public class CompressManager {
         return new CompressManager(context);
     }
 
-
     Context getContext() {
         return mWeakReference == null ? null : mWeakReference.get();
     }
@@ -60,7 +57,6 @@ public class CompressManager {
     public CompressOption addTask() {
         return addTaskInternal(null);
     }
-
 
     CompressOption addTaskInternal(CompressOption compressOption) {
         CompressOption option = new CompressOption(this);

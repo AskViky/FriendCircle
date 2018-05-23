@@ -20,7 +20,6 @@ public interface OnResponseListener<T> {
 
         }
 
-
         @Override
         public void onError(BmobException e, int requestType) {
 

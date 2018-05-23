@@ -24,7 +24,6 @@ public class PraiseClick extends ClickableSpanEx {
 
     private PraiseClick() {}
 
-
     private PraiseClick(Builder builder) {
         super(builder.color,builder.clickBgColor);
         mContext = builder.mContext;

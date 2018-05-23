@@ -35,7 +35,6 @@ public class CircleViewHelper {
     int[] commentWidgetLocation;
     int[] commentBoxViewLocation;
 
-
     public View getCommentAnchorView() {
         return commentAnchorView;
     }

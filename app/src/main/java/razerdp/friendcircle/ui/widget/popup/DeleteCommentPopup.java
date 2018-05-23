@@ -22,7 +22,6 @@ public class DeleteCommentPopup extends BasePopupWindow implements View.OnClickL
 
     public DeleteCommentPopup(Activity context) {
         super(context);
-
         mDel = (TextView) findViewById(R.id.delete);
         mCancel = (TextView) findViewById(R.id.cancel);
 

@@ -22,7 +22,6 @@ import razerdp.github.com.ui.base.adapter.LayoutId;
 @LayoutId(id = R.layout.moments_empty_content)
 public class EmptyMomentsVH extends CircleBaseViewHolder {
 
-
     public EmptyMomentsVH(View itemView, int viewType) {
         super(itemView, viewType);
     }

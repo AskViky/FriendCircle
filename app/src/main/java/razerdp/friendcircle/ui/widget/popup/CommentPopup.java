@@ -38,10 +38,8 @@ public class CommentPopup extends BasePopupWindow implements View.OnClickListene
     private RelativeLayout mCommentClickLayout;
 
     private MomentsInfo mMomentsInfo;
-
     private WeakHandler handler;
     private ScaleAnimation mScaleAnimation;
-
     private OnCommentPopupClickListener mOnCommentPopupClickListener;
 
     //是否已经点赞

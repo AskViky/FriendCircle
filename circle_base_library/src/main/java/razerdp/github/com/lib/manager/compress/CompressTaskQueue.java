@@ -21,7 +21,6 @@ public class CompressTaskQueue extends BaseCompressTaskHelper<List<CompressOptio
         super(context, options, onCompressListener);
     }
 
-
     @Override
     public void start() {
         if (ToolUtil.isListEmpty(data)) {
@@ -58,7 +57,6 @@ public class CompressTaskQueue extends BaseCompressTaskHelper<List<CompressOptio
         callCompress(taskSize - mTaskHelpers.size(), taskSize);
     }
 
-
     //-----------------------------------------single listener-----------------------------------------
     private OnCompressListener mOnCompressListener = new OnCompressListener() {
 
@@ -66,7 +64,6 @@ public class CompressTaskQueue extends BaseCompressTaskHelper<List<CompressOptio
         public void onRotate(int picIndex, int width, int height) {
             callRotated(taskSize - mTaskHelpers.size(), width, height);
         }
-
 
         @Override
         public void onSuccess(List<String> imagePath) {

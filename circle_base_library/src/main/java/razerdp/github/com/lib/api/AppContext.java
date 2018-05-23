@@ -97,31 +97,26 @@ public class AppContext {
         @Override
         public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
             ++created;
-
         }
 
         @Override
         public void onActivityStarted(Activity activity) {
             ++started;
-
         }
 
         @Override
         public void onActivityResumed(Activity activity) {
             ++resumed;
-
         }
 
         @Override
         public void onActivityPaused(Activity activity) {
             ++paused;
-
         }
 
         @Override
         public void onActivityStopped(Activity activity) {
             ++stopped;
-
         }
 
         @Override

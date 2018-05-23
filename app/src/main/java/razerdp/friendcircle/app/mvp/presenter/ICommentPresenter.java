@@ -11,7 +11,6 @@ import razerdp.friendcircle.app.mvp.callback.OnCommentChangeCallback;
 
 public interface ICommentPresenter {
 
-
     /**
      * 添加评论
      */

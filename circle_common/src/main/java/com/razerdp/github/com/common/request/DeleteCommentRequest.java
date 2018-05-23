@@ -22,7 +22,6 @@ public class DeleteCommentRequest extends BaseRequestClient<String> {
         this.commentid = commentid;
     }
 
-
     @Override
     protected void executeInternal(final int requestType, boolean showDialog) {
         if (TextUtils.isEmpty(commentid)) {

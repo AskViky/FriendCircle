@@ -17,8 +17,8 @@ import razerdp.github.com.ui.widget.commentwidget.CommentContentsLayout;
  * Created by 大灯泡 on 2018/3/28.
  */
 public class TestActivity extends BaseActivity {
-    private CommentContentsLayout commentLayout;
 
+    private CommentContentsLayout commentLayout;
 
     @Override
     public void onHandleIntent(Intent intent) {
@@ -34,7 +34,6 @@ public class TestActivity extends BaseActivity {
 
     private void initView() {
         commentLayout = (CommentContentsLayout) findViewById(R.id.comment_layout);
-
         List<CommentInfo> commentInfos = GsonUtil.INSTANCE.toList(FakeData.data, CommentInfo.class);
         commentLayout.setMode(CommentContentsLayout.Mode.EXPANDABLE);
         commentLayout.addComments(commentInfos);

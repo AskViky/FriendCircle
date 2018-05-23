@@ -7,6 +7,7 @@ package razerdp.github.com.bus;
  */
 
 public class EventSelectAlbum {
+
     private String albumName;
 
     public EventSelectAlbum(String albumName) {
